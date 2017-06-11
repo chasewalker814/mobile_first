@@ -1,0 +1,75 @@
+body {
+	padding: .5rem;
+	background-color: #606060
+}
+#div1 {
+	display: flex;
+	justify-content: right;
+	align-content: ;
+  background-color: #00c8fa;
+  width: auto;
+  height: 10vh;
+}
+#redButton {
+	height: auto;
+	width: 25%;
+	background-color: #c82506;
+	margin: .6rem;
+  position: relative;
+  float: right;
+  border: 1px solid white;
+}
+#div2 {
+ background-color: #dcf6fe;
+ width: auto;
+ height: 30vh;
+}
+#div3 {
+  background-color: #adde91;
+  width: auto;
+  height: 25vh;
+}
+#div4 {
+  background-color: #adde91;
+  width: auto;
+  height: 25vh;
+}
+#div5 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  /*align-content: space-between;*/
+  width: auto;
+  height: 50vh;
+  border: 1px solid white;
+}
+.padded {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	border: 1px solid white;
+}
+.innerDiv {
+	/*flex-direction: row;*/
+	background-color: #00c7fa;
+	border: 1px solid white;
+	height: 32%;
+	width: auto;
+	margin: 1%;
+}
+@media (min-width: 768px) {
+#greenDivs {
+	display: flex;
+	align-content: space-around;
+	justify-content: space-between;
+}
+#div3, #div4 {
+	width: 49%;
+}
+#div5 {
+	flex-direction: row;
+}
+.innerDiv {
+	height: auto;
+	width: 32%;
+}
+}
